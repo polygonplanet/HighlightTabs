@@ -3,7 +3,7 @@ HighlightTabs
 
 **[README (English)](README.md)**
 
-タブ文字を強調表示する [Sublime Text 2](http://www.sublimetext.com/2) と [3](http://www.sublimetext.com/3) 用のプラグインです。
+タブ文字を強調表示する [Sublime Text](http://www.sublimetext.com/3) 用のプラグインです。
 
 ## 導入
 

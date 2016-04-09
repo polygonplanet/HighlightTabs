@@ -3,7 +3,7 @@ HighlightTabs
 
 **[README (日本語)](README.ja.md)**
 
-Highlight tab characters in [Sublime Text 2](http://www.sublimetext.com/2) and [3](http://www.sublimetext.com/3).
+Highlight tab characters in [Sublime Text](http://www.sublimetext.com/3).
 
 ## Installation
 
