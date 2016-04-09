@@ -1,0 +1,29 @@
+// Highlight Tabs' default settings.
+//
+// In order to tweak the settings, you should NOT edit this file, but instead
+// the user-specific, empty-by-default version under
+// "Preferences / Package Settings / HighlightTabs / Settings - User".
+//
+// See Highlight Tabs' README for detailed instructions.
+{
+  // Whether to enable the Highlight Tabs.
+  "highlight_tabs_enabled": true,
+
+  // Highlight color is specified as a scope.
+  // You may define and use a custom scope to better fit your colorscheme.
+  // A value of empty string "" will make highlights invisible.
+  "highlight_tabs_highlight_color": "comment",
+
+  // A regular expression pattern to highlight any character.
+  // By default, highlight tab characters.
+  "highlight_tabs_regexp": "\t",
+
+  // Highlighting will be disabled if the edited file's size is larger than
+  // this.
+  // Adjust the value (in number of chars) to whatever fits your performance.
+  "highlight_tabs_max_file_size": 1048576,
+
+  // Interval to highlight on file modified.
+  // Adjust the value (in milliseconds) to whatever fits your performance.
+  "highlight_tabs_delay": 200
+}
