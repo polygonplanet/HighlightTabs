@@ -40,11 +40,12 @@ def highlight(view):
 
   regions = view.find_all(Pref.regexp)
   scope = Pref.highlight_color
-  flags = sublime.DRAW_NO_FILL + sublime.DRAW_NO_OUTLINE + sublime.DRAW_SOLID_UNDERLINE
 
   if ST3:
+    flags = sublime.DRAW_NO_FILL + sublime.DRAW_NO_OUTLINE + sublime.DRAW_SOLID_UNDERLINE
     view.add_regions(REGION_KEY, regions, scope, '', flags)
   else:
+    flags = sublime.DRAW_OUTLINED
     view.add_regions(REGION_KEY, regions, scope, flags)
 
 
