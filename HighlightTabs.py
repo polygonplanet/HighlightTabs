@@ -42,10 +42,10 @@ def highlight(view):
   scope = Pref.highlight_color
 
   if ST3:
-    flags = sublime.DRAW_NO_FILL + sublime.DRAW_NO_OUTLINE + sublime.DRAW_SOLID_UNDERLINE
+    flags = sublime.HIDE_ON_MINIMAP + sublime.DRAW_NO_FILL + sublime.DRAW_NO_OUTLINE + sublime.DRAW_SOLID_UNDERLINE
     view.add_regions(REGION_KEY, regions, scope, '', flags)
   else:
-    flags = sublime.DRAW_OUTLINED
+    flags = sublime.HIDE_ON_MINIMAP + sublime.DRAW_OUTLINED
     view.add_regions(REGION_KEY, regions, scope, flags)
 
 
